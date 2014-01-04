@@ -1,16 +1,16 @@
 Summary:	DVD menu support library
 Name:		libdvdnav
-Version:	4.2.0
-Release:	2
+Version:	4.2.1
+Release:	1
 License:	GPL
 Group:		Libraries
-Source0:	http://dvdnav.mplayerhq.hu/releases/%{name}-%{version}.tar.bz2
-# Source0-md5:	53be8903f9802e101929a3451203bbf6
+Source0:	http://dvdnav.mplayerhq.hu/releases/%{name}-%{version}.tar.xz
+# Source0-md5:	8a1b2ebfe81daecb590893cb9093f832
 Patch0:		%{name}-link.patch
 URL:		http://dvdnav.mplayerhq.hu/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	libdvdread-devel >= 4.2.0
+BuildRequires:	libdvdread-devel >= 4.2.1
 BuildRequires:	libtool
 BuildRequires:	pkg-config
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
